@@ -52,6 +52,11 @@ The LoRa SX1278 Communication with HDT Sensor project utilizes two ESP32 boards 
 ## License
 
 
+## Notes
+
+1. Change the SSID and Passwork (line 45,46 in station_example_main.c\main\send_lora) as your WiFi
+
+
 ## Acknowledgments
 
 https://www.espressif.com/en
