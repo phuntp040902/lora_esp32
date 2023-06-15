@@ -45,10 +45,24 @@ The LoRa SX1278 Communication with HDT Sensor project utilizes two ESP32 boards 
 1. Clone project to your SDk folder
 ```bash
 git clone https://github.com/phuntp040902/lora_esp32.git
-2. 
-3. 
-   
+```
 
+2. Open 2 ESP-IDF CMD terminals and type:
+* data transmission circuit:
+```bash
+cd send_lora
+idf.py build
+idf.py -p (COM3) flash monitor
+```
+* data receiving circuit:
+```bash
+cd receive_lora
+idf.py build
+idf.py -p (COM7) flash monitor
+```
+
+3. Terminal uses for the transmission circuit, there is an IP after flash project, use that IP to access the platform
+   
 
 ## License
 
