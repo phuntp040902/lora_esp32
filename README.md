@@ -42,11 +42,12 @@ The LoRa SX1278 Communication with HDT Sensor project utilizes two ESP32 boards 
 
 ## Usage
 
-1. Power on both ESP32 boards.
-2. The transmitter board reads data from the HDT sensor periodically.
-3. The transmitter encodes the sensor data and sends it wirelessly to the receiver.
-4. The receiver board receives the transmitted data.
-5. The received data can be processed, displayed, or used as required.
+1. Clone project to your SDk folder
+```bash
+git clone https://github.com/phuntp040902/lora_esp32.git
+2. 
+3. 
+   
 
 
 ## License
